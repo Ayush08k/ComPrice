@@ -1,6 +1,6 @@
 @echo off
 echo ========================================
-echo  Comprize Backend Setup Script
+echo  ComPrice Backend Setup Script
 echo ========================================
 
 echo [1/4] Creating virtual environment...

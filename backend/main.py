@@ -1,5 +1,5 @@
 """
-Comprize Backend - FastAPI Price Scraping & AI Analysis Server
+ComPrice Backend - FastAPI Price Scraping & AI Analysis Server
 """
 import os
 import asyncio
@@ -19,7 +19,7 @@ from cache.store import get_cached, set_cached
 load_dotenv()
 
 app = FastAPI(
-    title="Comprize Price API",
+    title="ComPrice Price API",
     description="Real-time price comparison API for Indian e-commerce platforms",
     version="1.0.0"
 )
@@ -35,7 +35,7 @@ app.add_middleware(
 
 @app.get("/")
 async def root():
-    return {"status": "Comprize Backend is Live 🚀", "version": "1.0.0"}
+    return {"status": "ComPrice Backend is Live 🚀", "version": "1.0.0"}
 
 
 @app.get("/api/health")

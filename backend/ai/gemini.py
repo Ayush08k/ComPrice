@@ -45,7 +45,7 @@ async def get_ai_analysis(product_name: str, platform_prices: list) -> dict:
 
     price_summary = "\n".join(price_lines)
 
-    prompt = f"""You are Comprize AI, an expert Indian e-commerce shopping analyst.
+    prompt = f"""You are ComPrice AI, an expert Indian e-commerce shopping analyst.
 
 Product: {product_name}
 
@@ -127,7 +127,7 @@ def _fallback_analysis(product_name: str, platform_prices: list) -> dict:
         "verdictColor": verdict_color,
         "dealScore": deal_score,
         "summary": (
-            f"Comprize found {len(platform_prices)} live prices for {product_name}. "
+            f"ComPrice found {len(platform_prices)} live prices for {product_name}. "
             f"{cheapest['platformName']} is cheapest at ₹{cheapest['price']:,}, "
             f"saving you ₹{max_savings:,} vs the highest price."
         ),

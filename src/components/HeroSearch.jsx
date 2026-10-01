@@ -50,7 +50,7 @@ export default function HeroSearch({ searchQuery, setSearchQuery, onSelectProduc
         maxWidth: '650px',
         margin: '0 auto 32px auto'
       }}>
-        Enter any phone or gadget model below. <strong>Comprize</strong> instantly scans Amazon, Flipkart, Croma, Reliance Digital, Apple Store & Vijay Sales to find the cheapest offer.
+        Enter any phone or gadget model below. <strong>ComPrice</strong> instantly scans Amazon, Flipkart, Croma, Reliance Digital, Apple Store & Vijay Sales to find the cheapest offer.
       </p>
 
       {/* Search Input Box */}

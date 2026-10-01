@@ -62,7 +62,7 @@ export default function AiAnalysisCard({ product, currency, onOpenGuide }) {
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
               <h3 style={{ fontSize: '1.25rem', fontWeight: 800, color: '#fff' }}>
-                Comprize AI Live Analysis & Comparison
+                ComPrice AI Live Analysis & Comparison
               </h3>
               <span className="badge" style={{ background: 'rgba(6, 182, 212, 0.2)', color: '#22d3ee', border: '1px solid #06b6d4', fontSize: '0.7rem' }}>
                 <Sparkles size={12} /> {isGeminiPowered ? 'GEMINI AI' : 'AI VERDICT'}

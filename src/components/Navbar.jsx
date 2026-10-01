@@ -37,7 +37,7 @@ export default function Navbar({ compareCount, onOpenCompare, currency, onToggle
           </div>
           <div>
             <div style={{ fontSize: '1.45rem', fontWeight: 800, display: 'flex', alignItems: 'center', gap: '6px', letterSpacing: '-0.03em' }}>
-              <span className="gradient-cyan-text">Comprize</span>
+              <span className="gradient-cyan-text">ComPrice</span>
               <span style={{ fontSize: '0.65rem', padding: '2px 6px', background: 'rgba(6, 182, 212, 0.2)', border: '1px solid #06b6d4', borderRadius: '4px', color: '#22d3ee', fontWeight: 700 }}>PRO</span>
             </div>
             <p style={{ fontSize: '0.72rem', color: 'var(--text-muted)' }}>Smart Price Comparison Engine</p>

@@ -27,10 +27,10 @@ export default function Footer() {
               }}>
                 <Tag color="#fff" size={18} />
               </div>
-              <span className="gradient-cyan-text" style={{ fontSize: '1.4rem', fontWeight: 800 }}>Comprize</span>
+              <span className="gradient-cyan-text" style={{ fontSize: '1.4rem', fontWeight: 800 }}>ComPrice</span>
             </div>
             <p style={{ color: 'var(--text-muted)', fontSize: '0.88rem', lineHeight: 1.6 }}>
-              Comprize automatically compares online product prices across major e-commerce platforms so you always get the absolute lowest deal.
+              ComPrice automatically compares online product prices across major e-commerce platforms so you always get the absolute lowest deal.
             </p>
           </div>
 
@@ -75,7 +75,7 @@ export default function Footer() {
           color: 'var(--text-subtle)'
         }}>
           <div>
-            © {new Date().getFullYear()} Comprize Price Engine. All product links take you directly to official seller sites.
+            © {new Date().getFullYear()} ComPrice Price Engine. All product links take you directly to official seller sites.
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
             Built with <Heart size={14} color="#ef4444" fill="#ef4444" /> for smart shoppers

@@ -1,6 +1,6 @@
 @echo off
 echo ========================================
-echo  Starting Comprize Backend API
+echo  Starting ComPrice Backend API
 echo  Server: http://localhost:8000
 echo  API Docs: http://localhost:8000/docs
 echo ========================================

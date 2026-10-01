@@ -8,7 +8,7 @@ import PlatformPriceTable from './components/PlatformPriceTable.jsx';
 import PriceHistoryGraph from './components/PriceHistoryGraph.jsx';
 import PriceAlertModal from './components/PriceAlertModal.jsx';
 import AiTrainingGuideModal from './components/AiTrainingGuideModal.jsx';
-import ComprizeAI from './components/ComprizeAI.jsx';
+import ComPriceAI from './components/ComPriceAI.jsx';
 import Footer from './components/Footer.jsx';
 
 import { getCheapestPlatformDetails, formatCurrency } from './utils/priceEngine.js';
@@ -226,7 +226,7 @@ export default function App() {
                 Search Any Product to Compare Live Prices
               </h3>
               <p style={{ color: 'var(--text-muted)', marginBottom: '32px', fontSize: '0.95rem' }}>
-                Type a product name above and Comprize will fetch real-time prices from Amazon, Flipkart, Croma, and Reliance Digital using live web scanning.
+                Type a product name above and ComPrice will fetch real-time prices from Amazon, Flipkart, Croma, and Reliance Digital using live web scanning.
               </p>
 
               {/* Popular Searches */}
@@ -356,8 +356,8 @@ export default function App() {
         </div>
       </main>
 
-      {/* Floating Comprize AI Assistant Widget */}
-      <ComprizeAI
+      {/* Floating ComPrice AI Assistant Widget */}
+      <ComPriceAI
         activeProduct={activeProduct}
         currency={currency}
         onOpenGuide={() => setIsGuideOpen(true)}

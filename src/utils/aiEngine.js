@@ -1,7 +1,7 @@
 import { getCheapestPlatformDetails, formatCurrency } from './priceEngine.js';
 
 /**
- * Comprize AI Analysis Engine
+ * ComPrice AI Analysis Engine
  * Evaluates live store pricing, historical trends, bank coupons, and stock status to produce an intelligent AI shopping recommendation.
  */
 export function analyzeProductWithAI(product, currency = 'INR') {
@@ -32,7 +32,7 @@ export function analyzeProductWithAI(product, currency = 'INR') {
   }
 
   // Generate AI Verdict Summary
-  const verdictText = `Comprize AI strongly recommends buying ${product.name} on ${cheapest.platform.name}. You save ${formatCurrency(maxSavings, currency)} compared to highest seller price, plus an additional ${cheapest.coupon ? cheapest.coupon : 'free express delivery'}.`;
+  const verdictText = `ComPrice AI strongly recommends buying ${product.name} on ${cheapest.platform.name}. You save ${formatCurrency(maxSavings, currency)} compared to highest seller price, plus an additional ${cheapest.coupon ? cheapest.coupon : 'free express delivery'}.`;
 
   return {
     productName: product.name,
@@ -79,7 +79,7 @@ export const AI_TRAINING_GUIDE = {
       step: 'Step 3: Preparing Fine-Tuning Training Datasets',
       icon: '📊',
       description: 'Format real-world price comparison scenarios into JSONL dataset format for model training.',
-      codeSnippet: `{"messages": [{"role": "system", "content": "You are Comprize AI deal analyst."}, {"role": "user", "content": "Compare iPhone 15 Pro on Amazon vs Flipkart."}, {"role": "assistant", "content": "Flipkart is ₹2,000 cheaper with flat ₹5,000 HDFC bank cashback."}]}`
+      codeSnippet: `{"messages": [{"role": "system", "content": "You are ComPrice AI deal analyst."}, {"role": "user", "content": "Compare iPhone 15 Pro on Amazon vs Flipkart."}, {"role": "assistant", "content": "Flipkart is ₹2,000 cheaper with flat ₹5,000 HDFC bank cashback."}]}`
     },
     {
       step: 'Step 4: Model Training & LoRA Fine-Tuning',

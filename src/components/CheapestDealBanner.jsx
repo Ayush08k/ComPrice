@@ -25,13 +25,13 @@ export default function CheapestDealBanner({ cheapestDetails, productName, curre
         {/* Left Column: Recommendation Header */}
         <div>
           <div className="badge badge-cheapest" style={{ marginBottom: '12px' }}>
-            <Zap size={14} /> CHEAPEST PLATFORM RECOMMENDED BY COMPRIZE
+            <Zap size={14} /> CHEAPEST PLATFORM RECOMMENDED BY COMPRICE
           </div>
           <h2 style={{ fontSize: '1.6rem', fontWeight: 800, marginBottom: '6px', color: '#fff' }}>
             Buy on <span style={{ color: platform.color }}>{platform.name}</span>
           </h2>
           <p style={{ color: 'var(--text-muted)', fontSize: '0.92rem', marginBottom: '16px' }}>
-            Comprize verified that {platform.name} currently offers the lowest price for <strong>{productName}</strong>.
+            ComPrice verified that {platform.name} currently offers the lowest price for <strong>{productName}</strong>.
           </p>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap' }}>

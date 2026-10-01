@@ -1,4 +1,4 @@
-// Live Web Price Fetcher Service for Comprize
+// Live Web Price Fetcher Service for ComPrice
 // Calls the real Python backend API to fetch live prices from e-commerce platforms
 
 const BACKEND_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
